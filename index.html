@@ -2,184 +2,295 @@
 <html lang="ru">
 <head>
   <link rel="stylesheet" href="styles/css/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <div class="page">
+
     <header class="header mem">
-      <logo class="logo logo_place_header mem"></logo>
-      <title class="title mem">Научиться учиться</title>
-  <subtitle class="subtitle mem">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-    <a href="#" class="header-link">Узнать как</a>
+      <logo class="header_logo mem"></logo>
+      <title class="header_title mem">Научиться плохому</title>
+
+  <subtitle class="header_subtitle mem">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+    <a href="#">Узнать как</a>
   </subtitle>
-  <main-illustration class="main-illustration mem">
-    <img src="images/two_again.png" alt="Картина Опять двойка" class="ris1">
+  <main-illustration class="header_two-again_place mem">
+    <img src="images/two_again.png" alt="Картина Опять двойка" class="header_two-again">
   </main-illustration>
-  <square-pic class="square-pic"></square-pic>
+
+    <square-pic class="header_square-pic"></square-pic>
 
     </header>
-    <main class="content">
 
+
+    <main class="content">
       <section class="description mem">
-        <two-columns class="two-columns">
-          <brief class="brief mem">
-            <h3 class="btitle mem">Главные проблемы в обучении</h3>
+        <two-columns class="table-style_two-columns">
+          <brief class="table-style_brief mem">
+            <h3 class="table-style_btitle mem">Главные проблемы в обучении</h3>
           </brief>
-          <main-text class="main-text mem">
-            <paragraph class="par mem dparsp">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</paragraph>
-            <paragraph class="par mem dparsp"><span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</paragraph>
-            <paragraph class="par mem">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</paragraph>
+          <main-text class="table-style_main-text mem">
+            <paragraph class="table-style_par mem table-style_dparsp">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</paragraph>
+            <paragraph class="table-style_par mem table-style_dparsp"><span class="table-style_span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</paragraph>
+            <paragraph class="table-style_par mem">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</paragraph>
           </main-text>
         </two-columns>
       </section>
 
-      <section class="digits mem">
-        <section-title class="section-title"><h1 class="h1 mem">Цифры и факты</h1></section-title>
-        <section-subtitle class="section-subtitle"><h2 class="h2 mem">Про учёбу и мозг</h2></section-subtitle>
-        <her class="her mem">
-          <p class="ebta mem">
-            <a class="her-head mem">86 миллиардов</a>
-            <a class="her-text mem">Число нейронов в мозге человека</a>
+
+      <section class="techniques mem">
+        <section-title class="content_section_title"><h1 class="h1 mem">Техники обучения</h1></section-title>
+        <section-subtitle class="content_section_subtitle"><h2 class="h2 mem">Пять техник от Барбары Оакли</h2></section-subtitle>
+        <trunk class="techniques_trunk mem">
+          <p class="techniques_block mem">
+            <span class="techniques_circle_image">
+            <img src="images_sprint-2/cards-attention.png" alt="Какая-то книжка" class="techniques_img">
+            </span>
+            <a class="techniques_block_head mem">Два вида внимания</a>
+            <a class="techniques_block_text mem">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление</a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">2.1 миллиарда</a>
-            <a class="her-text mem">Число нуждающихся в повышении квалификации</a>
-            <a class="her-subtext mem">Всемирный Банк, 2017</a>
+          <p class="techniques_block mem">
+            <span class="techniques_circle_image">
+            <img src="images_sprint-2/cards-recall.png" alt="Ангелочек" class="techniques_img">
+            </span>
+            <a class="techniques_block_head mem">Recall</a>
+            <a class="techniques_block_text mem">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">1000 терабайт</a>
-            <a class="her-text mem">Объём памяти человека</a>
+          <p class="techniques_block mem">
+            <span class="techniques_circle_image">
+            <img src="images_sprint-2/cards-interliving.png" alt="Вид изнутри гула земли" class="techniques_img">
+            </span>
+            <a class="techniques_block_head mem">Интерливинг</a>
+            <a class="techniques_block_text mem">Изучайте несколько навыков одновременно, они обогащают друг друга</a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">500 триллионов</a>
-            <a class="her-text mem">Число ответственных за обучение нервных синапсов у взрослого человека</a>
+          <p class="techniques_block mem">
+            <span class="techniques_circle_image">
+            <img src="images_sprint-2/cards-question.png" alt="Мама убралась в комнате" class="techniques_img">
+            </span>
+            <a class="techniques_block_head mem">Вопросы</a>
+            <a class="techniques_block_text mem">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует</a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">420 миллионов</a>
-            <a class="her-text mem">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</a>
-            <a class="her-subtext mem">Всемирный Банк, 2017</a>
+          <p class="techniques_block mem">
+            <span class="techniques_circle_image">
+            <img src="images_sprint-2/cards-competence.png" alt="Не пускайте меня в читай-город" class="techniques_img">
+            </span>
+            <a class="techniques_block_head mem">Иллюзия компетентности</a>
+            <a class="techniques_block_text mem">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой</a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">17–20 лет</a>
-            <a class="her-text mem">Пик обучаемости</a>
+          <p class="techniques_block mem">
+            <a class="techniques_block_head mem"></a>
+            <a class="techniques_block_text mem"></a>
           </p>
-          <p class="ebta mem">
-            <a class="her-head mem">1885 год</a>
-            <a class="her-text mem">Открытие кривой забывания</a>
-          </p>
-          <p class="ebta mem">
-            <a class="her-head mem">1889 год</a>
-            <a class="her-text mem">Открытие условного рефлекса</a>
-          </p>
-        </her>
+        </trunk>
       </section>
+
+      <section class="video mem">
+       <title class="content_section_title mem">Видео на TED</title>
+       <subtitle class="content_section_subtitle mem">Для тех, кто любит прокрастинировать</subtitle>
+       <YT-videos class="video_YT-videos mem">
+        <iframe src="https://www.youtube.com/watch?v=arj7oStGLkU" class="video_YT-videos_links mem"></iframe>
+        <iframe src="https://www.youtube.com/watch?v=5MgBikgcWnY" class="video_YT-videos_links mem"></iframe>
+       </YT-videos>
+      </section>
+
+      <section class="oakley">
+        <two-columns class="table-style_two-columns">
+          <brief class="table-style_brief mem">
+            <h3 class="table-style_btitle mem">История Барбары Оакли</h3>
+          </brief>
+          <main-text class="table-style_main-text mem">
+            <paragraph class="table-style_par mem dparsp">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</paragraph>
+          </main-text>
+        </two-columns>
+      </section>
+
 
       <section class="feynman">
-        <title class="feynman-title mem">Метод Фейнмана</title>
-        <subtitle class="feynman-subtitle mem">Выучить и не забыть.</subtitle>
-        <a href="#" class="feynman-link mem">Подробнее</a>
-        <img src="images/feynman.png" alt="Мужик" class="ris2">
+        <title class="feynman_title mem">Метод Фейнмана</title>
+        <subtitle class="feynman_subtitle mem">Выучить и не забыть.</subtitle>
+        <a href="#" class="feynman_link mem">Подробнее</a>
+        <img src="images/feynman.png" alt="Мужик" class="feynman_feynman">
       </section>
 
-      <section class="kaufman">
-        <section-title class="section-title">Принципы обучения</section-title>
-        <section-subtitle class="section-subtitle">от Джоша Кауфмана</section-subtitle>
-        <kauf class="kauf mem">
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">1</a>
-            <a class="kauf-text mem">Выберите привлекательный проект.</a>
+      <section class="digits mem">
+        <section-title class="content_section_title"><h1 class="h1 mem">Цифры и факты</h1></section-title>
+        <section-subtitle class="content_section_subtitle"><h2 class="h2 mem">Про учёбу и мозг</h2></section-subtitle>
+        <trunk class="digits_trunk mem">
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">86 миллиардов</a>
+            <a class="digits_block_text mem">Число нейронов в мозге человека</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">2</a>
-            <a class="kauf-text mem">Сосредоточьтесь на каком-то одном навыке.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">2.1 миллиарда</a>
+            <a class="digits_block_text mem">Число нуждающихся в повышении квалификации</a>
+            <a class="digits_block_subtext mem">Всемирный Банк, 2017</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">3</a>
-            <a class="kauf-text mem">Определите целевой уровень мастерства.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">1000 терабайт</a>
+            <a class="digits_block_text mem">Объём памяти человека</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">4</a>
-            <a class="kauf-text mem">Разбейте навык на элементы.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">500 триллионов</a>
+            <a class="digits_block_text mem">Число ответственных за обучение нервных синапсов у взрослого человека</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">5</a>
-            <a class="kauf-text mem">Приготовьте всё необходимое для занятий.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">420 миллионов</a>
+            <a class="digits_block_text mem">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</a>
+            <a class="digits_block_subtext mem">Всемирный Банк, 2017</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">6</a>
-            <a class="kauf-text mem">Устраните препятствия для занятий.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">17–20 лет</a>
+            <a class="digits_block_text mem">Пик обучаемости</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">7</a>
-            <a class="kauf-text mem">Выделите специальное время для занятий.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">1885 год</a>
+            <a class="digits_block_text mem">Открытие кривой забывания</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">8</a>
-            <a class="kauf-text mem">Создайте быстрые петли обратной связи.</a>
+          <p class="digits_block mem">
+            <a class="digits_block_head mem">1889 год</a>
+            <a class="digits_block_text mem">Открытие условного рефлекса</a>
           </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">9</a>
-            <a class="kauf-text mem">Занимайтесь по расписанию, короткими интенсивными интервалами.</a>
-          </p>
-          <p class="kauf-elem mem">
-            <a class="kauf-head mem">10</a>
-            <a class="kauf-text mem">Уделяйте внимание количеству и скорости.</a>
-          </p>
-          <img src="images/kaufman-triangle.svg" alt="Треугольник" class="ris3">
+        </trunk>
       </section>
+
+
+      <section class="khan mem">
+        <container class="khan_container mem">
+        <author class="khan_author mem">Салман Хан</author>
+        <title class="khan_title mem">Весь мир — школа</title>
+        <quote class="khan_quote mem">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</quote>
+        <quote-author class="khan_quote-author mem">Джордж Лукас</quote-author>
+        <quote-author-subline class="khan_quote-author-subline mem">Кинорежиссер, продюсер</quote-author-subline>
+        <book-container class="khan_book-container mem">
+        <book-pic class="khan_book-pic mem">
+        <img src="images_sprint-2/khan-book.jpg" alt="Обложка книги" class="khan_img">
+        </book-pic>
+        <a href="https://www.labirint.ru/books/483575/" target="_blank" class="khan_buy-link mem">Купить книгу</a>
+        </book-container>
+        </container>
+      </section>
+
+
+      <section class="kaufman">
+        <section-title class="content_section_title">Принципы обучения</section-title>
+        <section-subtitle class="content_section_subtitle">от Джоша Кауфмана</section-subtitle>
+        <trunk class="kaufman_trunk mem">
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">1</a>
+            <a class="kaufman_block_text mem">Выберите привлекательный проект.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">2</a>
+            <a class="kaufman_block_text mem">Сосредоточьтесь на каком-то одном навыке.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">3</a>
+            <a class="kaufman_block_text mem">Определите целевой уровень мастерства.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">4</a>
+            <a class="kaufman_block_text mem">Разбейте навык на элементы.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">5</a>
+            <a class="kaufman_block_text mem">Приготовьте всё необходимое для занятий.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">6</a>
+            <a class="kaufman_block_text mem">Устраните препятствия для занятий.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">7</a>
+            <a class="kaufman_block_text mem">Выделите специальное время для занятий.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">8</a>
+            <a class="kaufman_block_text mem">Создайте быстрые петли обратной связи.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">9</a>
+            <a class="kaufman_block_text mem">Занимайтесь по расписанию, короткими интенсивными интервалами.</a>
+          </p>
+          <p class="kaufman_block mem">
+            <a class="kaufman_block_head mem">10</a>
+            <a class="kaufman_block_text mem">Уделяйте внимание количеству и скорости.</a>
+          </p>
+        </trunk>
+          <img src="images/kaufman-triangle.svg" alt="Треугольник" class="kaufman_kaufman">
+      </section>
+
+      <section class="resources mem">
+        <section-title class="content_section_title"><h1 class="h1 mem">Полезные ресурсы</h1></section-title>
+        <section-subtitle class="content_section_subtitle"><h2 class="h2 mem">Больше материалов о техниках и лайфхаках обучения</h2></section-subtitle>
+      <logo-zone class="resources_logo_zone">
+      <a href="#" class="resources_logo_link">
+        <img src="images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас" class="resources_logo_link_img">
+        </a>
+        <a href="#" class="resources_logo_link">
+          <img src="images_sprint-2/logo/resources-n1.svg" alt="N+1" class="resources_logo_link_img">
+          </a>
+          <a href="#" class="resources_logo_link">
+            <img src="images_sprint-2/logo/resources-strelka.svg" alt="STRELKA" class="resources_logo_link_img">
+            </a>
+            <a href="#" class="resources_logo_link">
+              <img src="images_sprint-2/logo/resources-polka.svg" alt="ПОЛКА" class="resources_logo_link_img">
+              </a>
+            </logo-zone>
+      </section>
+
     </main>
   </div>
 
 <footer class="footer">
 
-  <coluns class="coluns mem">
+  <footer_coluns class="footer_coluns mem">
 
-    <copyright class="copyright mem">
-      <logo class="logo_place_footer mem"></logo>
-      <author class="author mem">&copy Alla Vasquez</author>
+    <copyright class="footer_copyright mem">
+      <logo class="footer_logo mem"></logo>
+      <author class="footer_author mem">&copy Alla Vasquez</author>
     </copyright>
 
-    <info class="info mem">
-      <colun-heading class="colun-heading mem">О Практикуме</colun-heading>
-      <colun-links class="colun-links mem">
-        <p class="slinks links234 mem">Главная</p>
-        <p class="slinks links234 mem">Концепция</p>
-        <p class="slinks links234 mem">Наставники</p>
-      </colun-links>
+    <info class="footer_info mem">
+      <info_colun-heading class="footer_coluns_heading mem">О Практикуме</info_colun-heading>
+      <info_colun-text class="footer_info_colun_text footer_info-social_text mem">
+        <p class="footer_info_colun-text_part mem">Главная</p>
+        <p class="footer_info_colun-text_part mem">Концепция</p>
+        <p class="footer_info_colun-text_part mem">Наставники</p>
+      </info_colun-text>
     </info>
 
-    <social class="social mem">
-      <colun-heading class="colun-heading mem">Соцсети</colun-heading>
+    <social class="footer_social mem">
+      <social_colun-heading class="footer_coluns_heading mem">Соцсети</colun-heading>
 
-      <colun-link class="colun-link mem">
+      <social_colun-text class="footer_social_colun_text footer_info-social_text mem">
 
-      <social-icon-youtube class="social-icon-youtube links234  mem">
-      <a href="#" class="social_anxiety">
-      <social-icon-youtube_head>YouTube</social-icon-youtube_head>
-      <img src="images/youtube_color_white.svg" alt="Ютуб" class="ris_YT mem">
+      <social-pic-youtube class="footer_social_pic mem">
+      <a href="#" class="footer_social_pic_link">
+      <social-name>YouTube</social-name>
+      <img src="images/youtube_color_white.svg" alt="Ютуб" class="footer_social_pic_ris mem">
       </a>
-      </social-icon-youtube>
+      </social-pic-youtube>
 
-      <social-icon-vk class="social-icon-vk links234 mem">
-      <a href="#" class="social_anxiety">
-      <social-icon-vk_head href="#">ВКонтакте</social-icon-vk_head>
-      <img src="images/vk_color_white.svg" alt="ВК" class="ris_VK mem">
+      <social-pic-vk class="footer_social_pic mem">
+      <a href="#" class="footer_social_pic_link">
+      <social-name href="#">ВКонтакте</social-name>
+      <img src="images/vk_color_white.svg" alt="ВК" class="footer_social_pic_ris mem">
       </a>
-      </social-icon-vk>
+      </social-pic-vk>
 
-      <social-icon-tt class="social-icon-tt links234  mem">
-      <a href="#" class="social_anxiety">
-      <social-icon-tt_head href="#">TickTock</social-icon-tt_head>
-      <img src="images/tiktok_color_white.svg" alt="ТТ" class="ris_TT mem">
+      <social-pic-tt class="footer_social_pic mem">
+      <a href="#" class="footer_social_pic_link">
+      <social-name href="#">TickTock</social-name>
+      <img src="images/tiktok_color_white.svg" alt="ТТ" class="footer_social_pic_ris mem">
       </a>
-      </social-icon-tt>
+      </social-pic-tt>
 
-      </colun-link>
+      </social_colun-text>
     </social>
 
-  </coluns>
+  </footer_coluns>
 </footer>
 
 </body>

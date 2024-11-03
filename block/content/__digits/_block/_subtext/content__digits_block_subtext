@@ -1,0 +1,5 @@
+.digits_block_subtext {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400px;
+}

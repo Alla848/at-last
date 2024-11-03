@@ -1,0 +1,6 @@
+.table-style_two-columns {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 80%;
+}

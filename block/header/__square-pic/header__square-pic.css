@@ -1,0 +1,9 @@
+.header_square-pic {
+  position: absolute;
+  right: 0;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  background-color: blue;
+  animation: rotation 20s linear infinite;
+}

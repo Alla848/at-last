@@ -1,0 +1,8 @@
+.kaufman_block {
+  display:flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 80px;
+  align-items: start;
+  z-index: 1;
+}

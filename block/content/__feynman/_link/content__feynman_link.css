@@ -1,0 +1,6 @@
+.feynman_link {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}

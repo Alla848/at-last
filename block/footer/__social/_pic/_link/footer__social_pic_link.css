@@ -1,0 +1,5 @@
+.footer_social_pic_link {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

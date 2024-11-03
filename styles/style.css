@@ -1,7 +1,18 @@
+ @keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
  }
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -11,10 +22,10 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
-.header {
+.header_logo {
   margin: 0 auto;
   height: 100vh;
   min-height: 600px;
@@ -23,22 +34,10 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
-  /* выше установили ограничения для секции */
+  overflow: hidden;
+  background-color:#f2f2f2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .logo_place_header {
   margin: auto;
@@ -84,8 +83,10 @@
   object-fit: cover;
 }
 
-/*.mem {border: 1px solid red;
-}*/
+.mem {border: 1px solid red;
+}
+
+/*Бабушка-технарь, дед-гуманитарий, я изобрел универсальный комментарий*/
 
 .square-pic {
   position: absolute;
@@ -93,14 +94,18 @@
   width: 568px;
   height: 568px;
   top: 64px;
-  background-color: #2f80ed;
+  background-color: blue;
+  animation: rotation 20s linear infinite;
 }
+
+
 .description {
   display: flex;
   position: relative;
   justify-content: center;
   min-height: 180px;
   margin-top: 100px;
+  background-color: #FFFFFF;
 }
 .two-columns {
   display: flex;
@@ -154,7 +159,7 @@
   align-items: center;
   width: 60%;
   line-height: 1.15;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600px;
   margin-bottom: 20px;
 }
@@ -165,10 +170,10 @@
   align-items: center;
   width: 60%;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400px;
 }
-.her {
+.trunk_digits {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -177,30 +182,203 @@
   margin-left: auto;
   margin-right: auto;
 }
-.ebta {
+.block_digits {
   display:flex;
   flex-direction: column;
   width: 250px;
   margin-top: 60px;
   align-items: start;
 }
-.her-head {
+.block-head_digits {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600px;
   margin-bottom: 20px;
 }
-.her-text {
+.block-text_digits {
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400px;
   margin-bottom: 20px;
 }
-.her-subtext {
+.block-subtext_digits {
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400px;
 }
+
+.techniques {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.trunk_techniques { /*таблица (про техники)*/
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.block_techniques { /*блоки таблицы (про техники)*/
+  display:flex;
+  flex-direction: column;
+  width: 240px;
+  margin-top: 60px;
+  align-items: center;
+}
+.circle-image {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 43px;
+}
+.img_techniques{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.block-head_techniques { /*заголовок блока таблицы (про техники)*/
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600px;
+  margin-bottom: 16px;
+}
+.block-text_techniques { /*текст блока таблицы (про техники)*/
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.video {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  height: 450px;
+  background-color: #FFFFFF;
+}
+
+.YT-videos {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1050px;
+  overflow: visible;
+  margin-top: 60px;
+}
+.YT-videos-links {
+  width: 515px;
+  height: 316px;
+  overflow: visible;
+  z-index: 2;
+}
+
+.oakley {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  min-height: 180px;
+  padding-top: 150px;
+  background-color:#f2f2f2;
+}
+
+.khan {
+  padding-top: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color:#f2f2f2;
+}
+
+.khan_container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.khan_author {
+  display: flex;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.khan_title {
+  display: flex;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600px;
+  margin-bottom: 50px;
+}
+
+.khan_quote {
+  display: flex;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 36px;
+}
+
+.khan_quote-author {
+  display: flex;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+}
+
+.khan_quote-author-subline {
+  display: flex;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 68px;
+}
+
+.khan_book-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.khan_book-pic {
+  display: flex;
+  width: 620px;
+  height: 880px;
+  margin-right: 68px;
+}
+.khan_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.khan_buy-link {
+  display: flex;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
 .feynman {
   display: flex;
   position: relative;
@@ -208,6 +386,7 @@
   align-items: center;
   text-align: center;
   height: 890px;
+  background-color:#f2f2f2;
 }
 .feynman-title {
   display: flex;
@@ -291,7 +470,35 @@
   height: 877px;
   top: 0;
   right: -210px;
+  animation: rotation 10s linear infinite;
 }
+
+.resources {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.logo-zone {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 217px;
+  width: 1100px;
+}
+.logo-link {
+  display: flex;
+  width: 270px;
+  height: 38px;
+}
+.logo-link_img {
+  width: 270px;
+  height: 38px;
+}
+
 .footer {
   display: flex;
   background-color: black;
@@ -301,7 +508,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
-.coluns {
+.footer_coluns {
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -317,7 +524,7 @@
   display: flex;
   width: 228px;
   height: 32px;
-  background-image: url("../images/logo_place_footer.svg")
+  background-image: url(".../images/logo_place_footer.svg")
 }
 .author {
   display: flex;
@@ -329,65 +536,54 @@
   display: flex;
   flex-direction: column;
 }
-.colun-links {
+.info_colun-text {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   justify-content: space-between;
 }
-.slinks {
+.info_colun-text_part {
   display:flex;
 }
 .social {
   display: flex;
   flex-direction: column;
 }
-.colun-link {
+
+.colun-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social_colun-text {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 16px;
   justify-content: space-between;
 }
-.colun-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
+
+.social-pic {
+  display: flex;
+  flex-direction: row;
 }
-.links234 {
+
+.info-social_text {
   display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
 }
-.social_anxiety {
+.social-pic_link {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
-.social-icon-youtube {
-  display: flex;
-}
-.ris_YT {
+
+.social-pic_ris {
   display: flex;
   width: 16px;
   height: 16px;
 }
-.social-icon-vk {
-  display: flex;
-  flex-direction: row;
-}
-.ris_VK {
-  display: flex;
-  width: 16px;
-  height: 16px;
-}
-.social-icon-tt {
-  display: flex;
-  flex-direction: row;
-}
-.ris_TT {
-  display: flex;
-  width: 16px;
-  height: 16px;
-}
+

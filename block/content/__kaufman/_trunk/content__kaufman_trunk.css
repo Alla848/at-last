@@ -1,0 +1,10 @@
+.kaufman_trunk {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}

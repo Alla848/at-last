@@ -1,0 +1,8 @@
+.khan_quote {
+  display: flex;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 36px;
+}

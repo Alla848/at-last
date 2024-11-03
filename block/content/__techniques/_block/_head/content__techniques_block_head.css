@@ -1,0 +1,6 @@
+.techniques_block_head { /*заголовок блока таблицы (про техники)*/
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600px;
+  margin-bottom: 16px;
+}

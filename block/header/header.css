@@ -1,0 +1,15 @@
+.header {
+  margin: 0 auto;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color:#f2f2f2;
+  /* выше установили ограничения для секции */
+}
+
+/*Бабушка-технарь, дед-гуманитарий, я изобрел универсальный комментарий*/

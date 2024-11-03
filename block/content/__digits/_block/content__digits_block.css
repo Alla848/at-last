@@ -1,0 +1,7 @@
+.digits_block {
+  display:flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 60px;
+  align-items: start;
+}

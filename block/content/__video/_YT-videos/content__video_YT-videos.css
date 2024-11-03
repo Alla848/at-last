@@ -1,0 +1,10 @@
+.video_YT-videos {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1050px;
+  overflow: visible;
+  margin-top: 60px;
+}

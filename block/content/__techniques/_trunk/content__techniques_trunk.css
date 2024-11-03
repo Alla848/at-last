@@ -1,0 +1,9 @@
+.techniques_trunk { /*таблица (про техники)*/
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
